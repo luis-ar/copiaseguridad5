@@ -1,0 +1,115 @@
+body {
+  background-color: rgb(63, 77, 196);
+  font-family: "Fredoka", sans-serif;
+}
+.caja2 {
+  display: none;
+}
+.contenedor {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(63, 77, 196);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.titulo {
+  position: absolute;
+  top: 20px;
+  font-size: 60px;
+  text-shadow: white 0 0 10px;
+}
+.caja1 {
+  background-color: crimson;
+  width: 500px;
+  height: 690px;
+  border-radius: 30px;
+  padding: 20px;
+  margin-top: 20px;
+  border: solid 5px rgb(21, 20, 22);
+}
+.pantalla {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(233, 241, 233);
+  border-radius: 30px;
+  border: solid 5px rgb(154, 151, 156);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+.botones {
+  width: 100%;
+  height: 500px;
+  background-color: grey;
+  margin-top: 35px;
+  border-radius: 30px;
+  border: solid 5px rgb(21, 20, 22);
+}
+.teclas {
+  width: 100%;
+  height: 80px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.teclas1 {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  font-size: 40px;
+  border: solid 3px rgb(21, 20, 22);
+  box-shadow: black 0 0 15px;
+}
+
+@media only screen and (max-width: 700px) {
+  .caja1 {
+    position: absolute;
+    top: 110px;
+    display: block;
+    background-color: crimson;
+    width: 300px;
+    height: 490px;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 20px;
+    border: solid 5px rgb(21, 20, 22);
+  }
+  .botones {
+    width: 100%;
+    height: 380px;
+    margin-top: 15px;
+  }
+  .pantalla {
+    width: 100%;
+    height: 70px;
+    font-size: 30px;
+  }
+  .teclas {
+    width: 100%;
+    height: 56px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .teclas1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 30px;
+    border: solid 3px rgb(21, 20, 22);
+    box-shadow: black 0 0 15px;
+  }
+  .titulo {
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    text-shadow: white 0 0 10px;
+  }
+}
